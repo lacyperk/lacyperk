@@ -3,6 +3,7 @@
     width: auto;
     margin-top: 4em;
     margin-left: 4em;
+    border-bottom-color: #ccd9ff;
     
 }
 
@@ -19,7 +20,6 @@ img
 {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 98%;
     height: 100px;
-    background-color: #ccd9ff;
 }
