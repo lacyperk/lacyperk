@@ -1,7 +1,8 @@
 .container
 {
-    width: 140%;
+    width: 120%;
     padding: 1em;
+    margin-top: 1em;
     
 }
 
@@ -11,5 +12,5 @@
 }
 img
 {
-    width: 150%;
+    width: 120%;
 }
