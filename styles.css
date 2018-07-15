@@ -15,6 +15,10 @@ img
     width: 150%;
     height: 80%;
 }
+footer
+{
+    display: block;
+}
 .sitemap
 {
     width: 98%;
