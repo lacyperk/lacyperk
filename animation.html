@@ -1,17 +1,19 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <title>Design Pattern 1</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-    
-        
-        <!--Optional Theme, Minty from Bootswatch-->
-        
-        <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css"  type="text/css">
-        <link rel="stylesheet" type="text/css" href="styles.css">
-
-        <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+<!DOCTYPE html>
+<!--
+	NOTES:
+	1. All tokens are represented by '$' sign in the template.
+	2. You can write your code only wherever mentioned.
+	3. All occurrences of existing tokens will be replaced by their appropriate values.
+	4. Blank lines will be removed automatically.
+	5. Remove unnecessary comments before creating your template.
+-->
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="authoring-tool" content="Adobe_Animate_CC">
+<title>animation</title>
+<!-- write your code here -->
+<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
 <script src="animation.js"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
@@ -159,57 +161,13 @@ function handleComplete(evt,comp) {
 	fnStartAnimation();
 }
 </script>
-
-
-
-  </head>
-  <body onload="init();">
-
-        <!--Choice of which categories you would like on your dashboard: journal, goals, planner, images, accounts etc...-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-                <a class="navbar-brand" href="">COMM 363</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                  <br/>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarColor01">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="https://lacyperk.github.io/lacyperk/">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-                  </form>
-                </div>
-              </nav>
-        <div class="container">
-          <div class="row">
-            <div class="col-3">
-              <a href="https://lacyperk.github.io/lacyperk/design1.html">Design Pattern One</a>
-            </div>
-            <div class="col-3">
-              <a href="https://lacyperk.github.io/lacyperk/design2.html">Design Pattern Two</a>
-            </div>
-            <div class="col-3">
-            <a href="https://lacyperk.github.io/lacyperk/design3.html">Design Pattern Three</a>
-          </div>
-          </div>
-          <div class="row">
-
-              <div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:750px; height:300px">
-                  <canvas id="canvas" width="750" height="300" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
-                  <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:750px; height:300px; position: absolute; left: 0px; top: 0px; display: block;">
-                  </div>
-                </div>
-
-          </div>
-        </div>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- write your code here -->
+</head>
+<body onload="init();" style="margin:0px;">
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:750px; height:300px">
+		<canvas id="canvas" width="750" height="300" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:750px; height:300px; position: absolute; left: 0px; top: 0px; display: block;">
+		</div>
+	</div>
 </body>
 </html>
