@@ -22,8 +22,9 @@ img
     width: 98%;
     height: 100px;
 }
-.btn-floating
+.media
 {
+    text-align: center;
     color: #ffffcc;
     font-size: 2em;
 }
