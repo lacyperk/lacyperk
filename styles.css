@@ -17,11 +17,11 @@ img
 }
 .sitemap
 {
-    background-color: 	#e6e6e6;
+    background-color: 	#bfbfbf;
     margin-left: 4em;
     border-top: 8px solid 	#ccd9ff;
     width: 98%;
-    height: 400px;
+    height: auto;
 }
 .media
 {
