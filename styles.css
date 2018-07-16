@@ -17,7 +17,7 @@ img
 }
 .sitemap
 {
-    background-color: 	#bfbfbf;
+    background-color: 	#e6e6e6;
     margin-left: 4em;
     border-top: 8px solid 	#ccd9ff;
     width: 98%;
@@ -26,6 +26,6 @@ img
 .media
 {
     text-align: center;
-    color: 	#ffdd99;
+    color: 	black;
     font-size: 2em;
 }
