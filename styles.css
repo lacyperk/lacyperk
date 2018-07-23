@@ -36,8 +36,8 @@ img
     height: max-content;
 }
 
-footer
+h5
 {
-    display: block;
+    font-weight: bold;
 }
 
