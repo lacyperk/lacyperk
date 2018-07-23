@@ -36,3 +36,8 @@ img
     height: max-content;
 }
 
+footer
+{
+    display: block;
+}
+
