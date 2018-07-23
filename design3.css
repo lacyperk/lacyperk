@@ -17,7 +17,7 @@ img
 }
 .sitemap
 {
-    background-color: 	#e6e6e6;
+    background-color: 	white;
     margin-left: 4em;
     border-top: 8px solid 	#ccd9ff;
     height: 340px;
@@ -37,8 +37,7 @@ img
 
 h5
 {
-    background-color: #78C2AD;
+    
     font-weight: bold;
-    color: white;
     padding: .5em;
 }
