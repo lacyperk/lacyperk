@@ -1,6 +1,6 @@
-document.getElementById("enter").onclick = function () {myFunction()};
+document.getElementById("enter").addEventListener("click", myFunction);
 
 function myFunction(){
-    document.getElementById("fname").innerHTML = "Hello,";
+    document.getElementById("fname").innerHTML = "Hello," + "fname";
     
 }
