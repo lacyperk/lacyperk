@@ -1,4 +1,4 @@
-document.getElementById("fname").onclick = function () {myFunction()};
+document.getElementById("enter").onclick = function () {myFunction()};
 
 function myFunction(){
     document.getElementById("fname").innerHTML;
