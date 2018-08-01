@@ -1,5 +1,4 @@
-
 function myFunction(){
-    document.getElementById("fname");
+    document.getElementById("fname").innerHTML;
     
 }
