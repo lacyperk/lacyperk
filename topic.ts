@@ -1,7 +1,6 @@
-function greeter(person) {
-    return "Hello, " + person;
+abstract class Animal {
+    abstract makeSound(): void;
+    move(): void {
+        console.log("roaming the earth...");
+    }
 }
-
-let user = "Jane User";
-
-document.body.innerHTML = greeter(user);

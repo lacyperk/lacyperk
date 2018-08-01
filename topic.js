@@ -1,5 +1,8 @@
-function greeter(person) {
-    return "Hello, " + person;
-}
-var user = "Jane User";
-document.body.innerHTML = greeter(user);
+var Animal = /** @class */ (function () {
+    function Animal() {
+    }
+    Animal.prototype.move = function () {
+        console.log("roaming the earth...");
+    };
+    return Animal;
+}());
